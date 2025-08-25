@@ -56,16 +56,6 @@ Node 0 has partitions: [P1 (Leader), P2 (Replica)]
 Node 1 has partitions: [P2 (Leader), P3 (Replica)]
 Node 2 has partitions: [P3 (Leader), P1 (Replica)]
 
-📂 Project Structure
-├── main.cpp # Entry point
-├── cluster.cpp # Cluster management logic
-├── cluster.h
-├── partition.cpp # Partition & replication
-├── partition.h
-├── kvstore.cpp # In-memory key-value store
-├── kvstore.h
-└── README.md # Documentation
-
 💡 Future Improvements
 
 Add failure handling & recovery (simulate node crashes).
